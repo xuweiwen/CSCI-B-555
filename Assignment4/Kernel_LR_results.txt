@@ -1,0 +1,70 @@
+Kernel Linear Regression Results:(with normalized dataset) (All the results are run on Training of 20000, Testsize of 10000 random data points)
+
+When I run Kernel LR, I get the following results:
+Accuracy for RidgeRegression: 1077.20598265
+Accuracy for FSLinearRegression: 1095.33775337
+Accuracy for Random: 373533.45824
+Accuracy for KernelRegression: 4633.41499249 
+Accuracy for Mean: 1500.01250961
+Number of centroids:  395
+
+With unnormalized dataset:
+
+Accuracy for RidgeRegression: 1359.82336386
+Accuracy for FSLinearRegression: 1368.47358545
+Accuracy for Random: 663758.699499
+Accuracy for Mean: 1643.11313972
+Accuracy for KernelRegression: 6849.77716688
+
+Kernel Regression with Regularisation:(performs as good as Linear Regression)
+0.1:Accuracy for KernelRegression: 1135.6070861
+Accuracy for RidgeRegression: 1135.33062632
+Accuracy for FSLinearRegression: 1.91460361733e+31
+Accuracy for Random: 281562.322506
+Accuracy for Mean: 1429.37369207
+------------------------------------------------------------------------------------------------------------------------------------------------
+0.001:
+0.01:
+0.1:    1135.607
+1: 
+10:
+100:
+1000:
+
+--------------------------------------------------------------------------------------
+reg:1:
+Accuracy for Mean: 1869.1964304
+Accuracy for RidgeRegression: 1549.80724629
+Accuracy for FSLinearRegression: 1928.26906352
+Accuracy for KernelRegression: 1549.86337447
+---------------------------------------------------------------------------
+reg:10
+Accuracy for RidgeRegression: 1287.66268836
+Accuracy for FSLinearRegression: 5424.2s6657376
+Accuracy for Random: 662409.87342
+Accuracy for KernelRegression: 1287.69049863
+Accuracy for Mean: 1686.82904871
+---------------------------------------------------------------------------------------
+The observation is that with regularisation (Good parameter is 0.1), Kernel linear regression performs as good as Ridge Regression. THe above implemented
+kernel algorithm is Linear Kernel.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+3 types of Kernel function implementation and their results:
+
+1. Hyperbolic Tangent Kernel
+2. Gaussian Kernel
+3. Exponential Kernel
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Gaussian Kernel:
+
+It is not working without regularisation.
+With regularisation if 0.1, it performs the same as mean predictor with sigma=1.
+sigma=0.1,
+
+
+
+
+
+

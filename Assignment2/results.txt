@@ -1,0 +1,71 @@
+Gradient Descent:
+
+lrate=0.001
+thrh=0.000001
+
+x=1.2,1.2----
+going to some extremely small value and is not converging....
+
+
+The new value of x1 is1.0834
+The new value of x2 is1.1740
+The count is700
+
+x=-1.2,1
+The new value of x1 is0.97277
+The new value of x2 is0.94620
+6902 iterations to diverge
+
+-----------------------------------------------------------------
+Precision 20:
+lrate=0.001
+threshhold:0.000001
+[1.2,1.2]
+
+The count is11694
+The new value of x1 is1.0012497602508106148
+The new value of x2 is1.0025060796820198549
+
+[-1.2,1]
+
+The count is14512
+The new value of x1 is0.99875208985324199592
+The new value of x2 is0.99750073960142464195
+
+----------------------------------------------------------------
+With increased precision it reaches a better value.
+------------------------------------------------------------------------------------------------------
+Precision=25:
+
+The count is46288
+The new value of x1 is1.000000001248838250295888
+The new value of x2 is1.000000002502673850893832
+
+The count is49092
+The new value of x1 is0.9999999987510113381818899
+The new value of x2 is0.9999999974970247272873244
+The diff is x_1 is4.989963511285E-13
+-------------------------------------------------------------------------------------------
+----------------------------------------------------------------
+
+Newton Raphson Method:(results)
+
+It converges in 1.0000,1.0000
+takes much lesser iterations;it converges in 6 iterations. Takes much lesser time.
+much smaller time.
+It takes 8 iterations; but converges at 1.0000,1.00000
+It gives a better result in this regard and takes smaller time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

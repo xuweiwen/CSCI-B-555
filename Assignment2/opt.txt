@@ -1,0 +1,90 @@
+The gradient along x1 is115.60
+The gradient along x2 is-48.000
+The count is1
+The new value of x1 is-114.40
+The new value of x2 is49.200
+The gradient along x1 is-5.9663E+8
+The gradient along x2 is-2.6076E+6
+The count is2
+The new value of x1 is5.9663E+8
+The new value of x2 is2.6076E+6
+The gradient along x1 is8.4952E+28
+The gradient along x2 is-7.1194E+19
+The count is3
+The new value of x1 is-8.4952E+28
+The new value of x2 is7.1194E+19
+The gradient along x1 is-2.4524E+89
+The gradient along x2 is-1.4434E+60
+The count is4
+The new value of x1 is2.4524E+89
+The new value of x2 is1.4434E+60
+The gradient along x1 is5.8996E+270
+The gradient along x2 is-1.2029E+181
+The count is5
+The new value of x1 is-5.8996E+270
+The new value of x2 is1.2029E+181
+The gradient along x1 is-8.2136E+814
+The gradient along x2 is-6.9610E+543
+The count is6
+The new value of x1 is8.2136E+814
+The new value of x2 is6.9610E+543
+The gradient along x1 is2.2165E+2447
+The gradient along x2 is-1.3493E+1632
+The count is7
+The new value of x1 is-2.2165E+2447
+The new value of x2 is1.3493E+1632
+The gradient along x1 is-4.3556E+7344
+The gradient along x2 is-9.8258E+4896
+The count is8
+The new value of x1 is4.3556E+7344
+The new value of x2 is9.8258E+4896
+The gradient along x1 is3.3052E+22036
+The gradient along x2 is-3.7942E+14691
+The count is9
+The new value of x1 is-3.3052E+22036
+The new value of x2 is3.7942E+14691
+The gradient along x1 is-1.4443E+66112
+The gradient along x2 is-2.1848E+44075
+The count is10
+The new value of x1 is1.4443E+66112
+The new value of x2 is2.1848E+44075
+The gradient along x1 is1.2051E+198339
+The gradient along x2 is-4.1720E+132226
+The count is11
+The new value of x1 is-1.2051E+198339
+The new value of x2 is4.1720E+132226
+The gradient along x1 is-7.0004E+595019
+The gradient along x2 is-2.9046E+396680
+The count is12
+The new value of x1 is7.0004E+595019
+The new value of x2 is2.9046E+396680
+The gradient along x1 is1.3722E+1785062
+The gradient along x2 is-9.8012E+1190041
+The count is13
+The new value of x1 is-1.3722E+1785062
+The new value of x2 is9.8012E+1190041
+The gradient along x1 is-1.0335E+5355189
+The gradient along x2 is-3.7658E+3570126
+The count is14
+The new value of x1 is1.0335E+5355189
+The new value of x2 is3.7658E+3570126
+The gradient along x1 is4.4156E+16065569
+The gradient along x2 is-2.1362E+10710380
+The count is15
+The new value of x1 is-4.4156E+16065569
+The new value of x2 is2.1362E+10710380
+The gradient along x1 is-3.4437E+48196711
+The gradient along x2 is-3.8996E+32131141
+The count is16
+The new value of x1 is3.4437E+48196711
+The new value of x2 is3.8996E+32131141
+The gradient along x1 is1.6336E+144590137
+The gradient along x2 is-2.3718E+96393425
+The count is17
+The new value of x1 is-1.6336E+144590137
+The new value of x2 is2.3718E+96393425
+The gradient along x1 is-1.7438E+433770414
+The gradient along x2 is-5.3372E+289180276
+The count is18
+The new value of x1 is1.7438E+433770414
+The new value of x2 is5.3372E+289180276

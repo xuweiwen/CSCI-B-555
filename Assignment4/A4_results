@@ -1,0 +1,72 @@
+Assignment#4 results:
+
+I split the training and test 40 times and wrote down 40 estimates of error. Next, I did the paired t-test between naive Bayes, Logistic Regression and Neural Network.
+For every test train split I performed 10 fold cross validation to choose the best parameters for Logistic and Neural Network and then used this best parameter to learn on the entire training and then got the accuracy estimates by running it on the test data.
+
+Neural.acc = data1[data1$Algos=="Neural"]
+Logistic.acc = data1[data1$Algos=="Logistic"]
+Bayes.acc = data1[data1$Algos=="Bayes"]
+
+anova(lm(Accuracy ~ Algo, data=data2))
+
+Analysis of Variance Table
+
+Response: Accuracy
+           Df Sum Sq Mean Sq F value    Pr(>F)    
+Algo        2 165.33  82.665  41.599 2.256e-14 ***
+Residuals 117 232.50   1.987                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Shows that a significant difference exists between the accuracy of the three algorithms. Now we have to perform pair wise t-tests to prove that a difference exists in the accuracy.
+Pairwise t-tests:
+
+The below ones are significant:
+
+t.test(Neural.acc,Logistic.acc,alternative="greater")
+
+	Welch Two Sample t-test
+
+data:  Neural.acc and Logistic.acc
+t = 0.78896, df = 41.564, p-value = 0.2173
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -0.3380138        Inf
+sample estimates:
+mean of x mean of y 
+  76.8220   76.5235 
+
+
+The p-value id 0.2 suggesting that there is no statistically significant difference between neural network and Logistic Regression.
+
+t.test(Neural.acc,Bayes.acc,alternative="greater")
+
+	Welch Two Sample t-test
+
+data:  Neural.acc and Bayes.acc
+t = 6.908, df = 42.309, p-value = 9.483e-09
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 1.986543      Inf
+sample estimates:
+mean of x mean of y 
+ 76.82200  74.19625 
+
+The p-value is very less suggesting that Neural Network gives better accuracy than Naive Bayes.
+
+t.test(Logistic.acc,Bayes.acc,alternative="greater")
+
+	Welch Two Sample t-test
+
+data:  Logistic.acc and Bayes.acc
+t = 22.765, df = 76.757, p-value < 2.2e-16
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 2.157043      Inf
+sample estimates:
+mean of x mean of y 
+ 76.52350  74.19625
+
+The p-value is very less again suggesting that Logistic Regression gives better accuracy than Naive Bayes.
+
+
